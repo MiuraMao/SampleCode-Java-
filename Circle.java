@@ -11,7 +11,7 @@ public class Circle {
         return 3.141592*r*r;
     }
     void move(int dx,int dy) {      //move the main point in a circle
-        x+=dx; y=+dy;
+        x+=dx; y+=dy;
     }
     void disp() {
         System.out.println("("+x+","+y+","+r+")" );
