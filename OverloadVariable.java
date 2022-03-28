@@ -1,3 +1,4 @@
+/*シグネチャが一致するメソッドが無い時、引数が一致する可変長引数のメソッドが呼び出される */
 class SomeClass {
     public void func(int... ary) {      //可変長引数のメソッド
         System.out.println("引数の数："+ary.length);
