@@ -1,4 +1,5 @@
 /*シグネチャが異なる複数のコンストラクタ*/
+/*コンストラクタはreturn文で値を返さない。また、戻り値をvoidとしてはならない*/
 class ClassA {
     int vala;
     int valb;
