@@ -1,5 +1,5 @@
 //formatメソッド（クラスメソッド、printfと同じ）
-//Stringは不変（immutable）オブジェクト
+//Stringは不変（immutable）オブジェクト（基本データ型のようにふるまう）
 class StringFormat {
     public static void main(String [] args) {
         int i=15, j=20;
