@@ -4,7 +4,7 @@ class Polyline {
     int[] x, y;
     Polyline(int pnum, int[] x, int[] y) {      //コンストラクタ
         this.pnum=pnum; this.x=new int[pnum]; this.y=new int[pnum]; //thisをつけることでフィールド変数を指定できる
-        for(int i=0; i<n; i++) {
+        for(int i=0; i<pnum; i++) {
             this.x[i]=x[i]; this.y[i]=y[i];
         }
     }
