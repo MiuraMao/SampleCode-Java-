@@ -1,5 +1,6 @@
 //オーバーライドの誤り
 class NewClass {
+    @Override                       //アノテーション
     public String tostring() {      //コンパイルエラーとならない（tostringという独自のクラスを定義したことになる）
         return "新しいクラスNewClassのObject";
     }
