@@ -1,3 +1,4 @@
+//ObjectƒNƒ‰ƒX‚Ì—á
 class A {
     protected int i;
     protected String s;
