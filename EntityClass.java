@@ -1,6 +1,6 @@
 class Entity {      //EntityClassで様々なインスタンスを１つのスーパークラス型の配列で管理できる
     public void show() {
-        System.out.println("データがない");     //メソッドの内容は意味をもつものではない
+        System.out.println("データがない");     //メソッドの内容は意味を持つものではない
     }
 }
 class Circle extends Entity {
