@@ -1,8 +1,10 @@
+//同名、同型と数の引数を持つインターフェースが複数あってもエラーとならない
+//インターフェースのフィールドが同名の場合はエラー
 interface VarietyOut {
     static void print(String msg) {
         System.out.println("print:"+msg);
     }
-    default void disp(String msg) {
+    default void disp(String msg) {     //defaultのメソッドはオーバーライドされない場合そのまま承継
         System.out.println("disp:"+msg);
     }
     void output(String msg);
