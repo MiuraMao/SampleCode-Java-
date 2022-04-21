@@ -19,7 +19,7 @@ class VOCB implements VarietyOut {
         System.out.println("outputB:"+msg.toUpperCase());
     }
     public void disp(String msg) {
-        StringBuffer sb=new StringBuffer(msg);
+        StringBuffer sb=new StringBuffer(msg);  //ƒƒ‚ƒŠŒø—¦‚Ì—Ç‚¢ƒNƒ‰ƒXStringBuffer
         System.out.println("dispB:"+sb.reverse());
     }
 }
