@@ -14,7 +14,7 @@ class LambdaSample {
                     (a,b) -> a.yomi.compareTo(b.yomi)           //Lambda式
                     );
         //Arrays.sortメソッドはシグネチャの異なる多数がオーバーロードされているが、ここでは
-        //Public static <T> void sort(T[] a, Comparator<? super T> c)とである
+        //Public static <T> void sort(T[] a, Comparator<? super T> c)である
         for(int i=0; i<ary.length; i++)
             System.out.printf("%s\t %2d\n",ary[i].name,ary[i].age);
     }
