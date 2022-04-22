@@ -17,5 +17,7 @@ class BoundedGeneric {
         GenClass<StringBuffer> gss=new GenClass<>(sb);
         System.out.println("length="+gss.length());
 //        GenClass<Integer> gi=new GenClass<>(10);  //CharSequenceのサブクラスでないためエラー
+//2つの変数gsとgssを以下のようにまとめることができる
+//GenClass <? extends CharSequence> g;
     }    
 }
