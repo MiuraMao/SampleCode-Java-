@@ -9,7 +9,7 @@ class SomeClass<T> {
 }
 class GenericSample {
     public static void main(String[] args) {
-        SomeClass<Integer> idata=new SomeClass<Integer>(10);
+        SomeClass<Integer> idata=new SomeClass<Integer>(10);    //右側の型引数の内容は省略可（<>:ダイアモンド演算子）
         SomeClass<Double> ddata=new SomeClass<Double>(20.0);
         SomeClass<String> sdata=new SomeClass<String>("Japan");
         idata.print();
