@@ -20,4 +20,4 @@ class Child extends Parent {
 
 /*パッケージ名の命名規則*/
 //パッケージ名の衝突が無いよう、インターネットのドメインを基に、逆順に並べて作成する
-//例：u-abc.ac.jp　→　jp.ac.u_abc（jp\ac\u_abc\package1　のフォルダにパッケージが作られる）
+//例：u-abc.ac.jp　→　jp.ac.u_abc（jp/ac/u_abc/package1　のフォルダにパッケージが作られる）
