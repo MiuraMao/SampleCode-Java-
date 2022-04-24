@@ -6,8 +6,10 @@ class Except2 {
             ary[8]=5;
             System.out.println("ary[8]に5を代入した");
         }
-        catch(ArrayIndexOutOfBoundsException e) {
-            System.out.println("配列の範囲を超えた");
+        //catch(ArrayIndexOutOfBoundsException e) {     //Exceptionの子孫のクラス
+        catch(Exception e) {                            //「e」に例外のオブジェクトが入る
+        //    System.out.println("配列の範囲を超えた");
+            System.out.println(e);
         }
     }    
 }
