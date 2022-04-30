@@ -19,3 +19,4 @@ class FromFile {
 /*区切り文字の変更*/
 //kin.useDelimiter("\\s*,\\s*");    //カンマを区切り文字に指定（前後の0個以上の空白文字を含む）
 //kin.userDelimiter("\\r\\n");      //Windowsの改行を区切り文字に指定
+//sc.useDelimiter("\\p{javaWhitespace}+");  //空白文字を区切り文字に指定しなおす
