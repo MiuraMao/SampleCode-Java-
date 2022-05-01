@@ -1,3 +1,4 @@
+//最近のJavaではFileクラスではなくFilesクラスの使用を推奨
 import java.io.File;
 import java.nio.file.*;
 import java.nio.file.attribute.*;
