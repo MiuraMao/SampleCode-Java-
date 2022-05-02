@@ -1,18 +1,19 @@
-import java.util.Arrays;
-
+//Arraysメソッドはstaticのため、オブジェクトを作成せず使用可能
+import java.lang.reflect.Array;
+import java.util.*;
 class ArraysSample {
-    static void printAry(int[] ary) {
-        for(int i=0; i<ary.length; i++)
-            System.out.printf("%3d",ary[i]);
-        System.out.println();
-    }
-
     public static void main(String[] args) {
-        int[] ary={8,4,7,2,5,1};
-        System.out.println("Before Sort");
-        printAry(ary);
-        Arrays.sort(ary);       //オブジェクト間の大小比較を行う方法をArraysクラスに教える必要がある
-        System.out.println("After Sort");
-        printAry(ary);
+        int[] data={5,7,2,8,4,1,9,6};
+        printAll("Before-sort:",data);
+        Arrays.sort(data);                  //昇順にソート
+        printAll("After-sort :",data);
+        System.out.println("5 is at "+Arrays.binarySearch(data,5)+" in data");
+        System.out.println("3 is at "+Arrays.binarySearch(data,3)+" in data");  //存在しない場合はマイナス値を返す
+    }
+    private static void printAll(String s, int[] ary) {
+        System.out.println(s);
+        for(int i=0; i<ary.length; i++) 
+            System.out.print(" "+ary[i]);
+        System.out.println();
     }
 }
