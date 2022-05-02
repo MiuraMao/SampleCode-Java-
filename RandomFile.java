@@ -1,4 +1,5 @@
 //ランダムアクセスファイル
+//try-with-resource文のためクローズ処理は省略
 import java.io.*;
 class RandomFile {
     public static void main(String[] args) {
